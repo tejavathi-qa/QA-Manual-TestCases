@@ -2,7 +2,6 @@
 
 > **Experience Level:** 8+ Years in Software Quality Assurance (Manual, API, & Strategy)
 > **Official Portfolio:** [**Live Demonstration Website**](https://tejavathi-qa.github.io/QA-Manual-TestCases/)
-
 > **Specialization:** FinTech, Healthcare, Enterprise CRM, and Microservices Security.
 
 This repository is a comprehensive demonstration of professional testing expertise. It goes beyond simple functional checks to include **Risk Management, API Contract Validation, RBAC Security, and Enterprise-grade Test Strategies.**
