@@ -1,36 +1,60 @@
-# QA Manual Test Cases Repository
+# 🏆 Senior QA Lead - Manual Testing Portfolio
 
-Welcome to the **QA Manual Test Cases** repository. This project showcases a comprehensive portfolio of high-standard manual testing artifacts, designed for enterprise-level applications.
+> **Experience Level:** 8+ Years in Software Quality Assurance (Manual, API, & Strategy)
+> **Official Portfolio:** [**Live Demonstration Website**](https://tejavathi-qa.github.io/QA-Manual-TestCases/)
 
-## 🚀 About the Architect
-As a **Software Test Engineer with 8+ years of experience**, I have mastered the art of comprehensive test design, risk-based analysis, and the implementation of robust QA methodologies. This repository serves as a testament to my expertise in ensuring software quality across diverse domains.
+> **Specialization:** FinTech, Healthcare, Enterprise CRM, and Microservices Security.
 
-## 📁 Repository Structure
-
-The documentation is organized by application type and module:
-
-1.  **[Web Application - Authentication](./Web-Authentication/)**: Login, Signup, and MFA/Password Reset workflows.
-2.  **[E-commerce - Product Flow](./E-commerce-Product-Flow/)**: Search, Cart, Checkout, and Payment.
-3.  **[Mobile Application - Profile](./Mobile-Profile-Notifications/)**: Profile management and Push Notifications.
-4.  **[Healthcare - Patient Booking](./Healthcare-Application/)**: Registration and Appointment Scheduling.
-5.  **[Banking - Fund Transfer](./Banking-Application/)**: Secure transfers and Transaction History.
-
-## 🛡️ Testing Methodology
-
-My approach follows the **Standard Test Life Cycle (STLC)** with a focus on:
-- **Equivalence Partitioning & Boundary Value Analysis**: Reducing test redundancy while maximizing coverage.
-- **Negative & Edge Case Testing**: Ensuring system resilience under "unhappy" paths.
-- **Risk-Based Testing**: Prioritizing critical business functions (P1/P2).
-- **Security & Usability Heuristics**: Verifying both the safety and experience of the end-user.
-
-## 📋 Standard Artifact Components
-
-Each module in this repository includes:
-- **Test Strategy & Coverage Overview**
-- **High-Level Test Scenarios**
-- **Detailed Test Case Specifications** (IDs, Steps, Data, Expected Results, Priority, Type)
-- **Traceability Matrix** (Requirements vs. Test Coverage)
-- **Defect Potential Analysis** (Possible Bugs / Failure conditions)
+This repository is a comprehensive demonstration of professional testing expertise. It goes beyond simple functional checks to include **Risk Management, API Contract Validation, RBAC Security, and Enterprise-grade Test Strategies.**
 
 ---
-*For inquiries or professional collaboration, feel free to reach out.*
+
+## 📂 Repository Architecture (Senior Level)
+
+### 🏢 Enterprise Domains
+| Module | Focus & Complexity | Documentation |
+| :--- | :--- | :--- |
+| **CRM & RBAC** | Role Hierarchies, Data Integrity, Field Security | [Explore](./CRM-RBAC-Module/Test-Documentation.md) |
+| **Healthcare (EHR)** | HIPAA Compliance, Patient Privacy, Complex Workflows | [Explore](./Healthcare-Application/Test-Documentation.md) |
+| **Banking & Fintech** | Transaction Atomicity, Idempotency, Audit Logs | [Explore](./Banking-Application/Test-Documentation.md) |
+| **E-commerce E2E** | Multi-service integration, Inventory Sync, Payments | [Explore](./E-commerce-Product-Flow/Test-Documentation.md) |
+
+### 🌐 Technical & Non-Functional
+| Module | Key Coverage | Documentation |
+| :--- | :--- | :--- |
+| **API Manual Testing** | Schema Validation, JWT Security, Rate Limiting | [Explore](./API-Manual-Testing/Test-Documentation.md) |
+| **Web Authentication** | IDOR, Session Fixation, Brute Force protection | [Explore](./Web-Authentication/Test-Documentation.md) |
+| **Mobile App Testing** | Battery Performance, Network Throttling, Biometrics | [Explore](./Mobile-App-Testing/Test-Documentation.md) |
+
+---
+
+## 🏗️ Strategic Leadership Docs
+As a Senior QA, I maintain high-standard process documentation that guides the entire SDLC:
+- [**Enterprise Test Strategy**](./Strategy-and-Process/Enterprise-Test-Strategy.md) - Global QA Governance and Go/No-Go criteria.
+- [**Test Data Management (TDM)**](./Strategy-and-Process/Test-Data-Management.md) - PII Masking & synthetic data protocols.
+- [**Defect Registry (Bug Log)**](./Strategy-and-Process/Defect-Registry.md) - Live tracking of high-impact production leaks.
+- [**Root Cause Analysis (RCA)**](./Strategy-and-Process/RCA-Report-Template.md) - Professional templates for post-mortem analysis.
+
+---
+
+## 🧠 My Testing Philosophy (8-Year Senior Insight)
+1. **Shift-Left Approach:** I believe in testing from the 'Requirement' phase. Finding a logic flaw in a PRD costs $0; finding it in Prod costs thousands.
+2. **Beyond the UI:** A true Senior QA tests the 'Logs', the 'Database', and the 'API Network'—not just the 'Button'.
+3. **Risk-Based Testing (RBT):** When time is short, I prioritize testing based on **Impact vs. Probability**, ensuring 100% coverage of P0 business flows.
+4. **Data Privacy:** Expert in handling PII/PHI data with synthetic masking to ensure compliance with GDPR/HIPAA.
+
+---
+
+## 📋 Standard Artifact Components
+Each module in this repository includes:
+- **Requirement Traceability Matrix (RTM)**
+- **Detailed Step-by-Step Test cases**
+- **Negative & Boundary Value Analysis**
+- **Security & Performance Heuristics**
+
+---
+## 🛠️ Repository Maintenance
+For ease of updates, I've included a `push_updates.bat` script in the root. Running this will automatically add, commit, and push all changes to GitHub in one click.
+
+---
+*Created by [Your Name] - Dedicated to excellence in Software Quality.*
